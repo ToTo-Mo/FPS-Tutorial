@@ -84,6 +84,7 @@ public class MovementController : MonoBehaviour
 
         originPos = FPSCamera.transform.localPosition;
         currentCrouchPos = originPos;
+        currentSpeed = walkSpeed;
     }
 
     void Update()
