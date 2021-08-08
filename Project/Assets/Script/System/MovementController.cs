@@ -20,7 +20,7 @@ public class MovementController : MonoBehaviour
     private float runSpeed = 10f;
     [SerializeField]
     [Tooltip("Character crouch speed, default = 4")]
-    private float crouchSpeed;
+    private float crouchSpeed = 4f;
     private float currentSpeed;
 
     // 앉기
